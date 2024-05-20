@@ -73,6 +73,16 @@
                                             &trans        &trans        &trans          &trans                   &kp PRINTSCREEN          &trans
             >;
         };
+
+        GAME {
+            display-name = "GAME";
+            bindings = <
+&kp TAB         &kp Q  &kp W  &kp E             &kp R             &kp T        &kp Y  &kp U          &kp I                 &kp O    &kp P     &kp BSPC
+&kp ESC         &kp A  &kp S  &kp D             &kp F             &kp G        &kp H  &kp J          &kp K                 &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C             &kp V             &kp B        &kp N  &kp M          &kp COMMA             &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                              &mt LEFT_GUI TAB  &kp LEFT_CONTROL  &kp SPACE    &to 0  &kp BACKSPACE  &mt RIGHT_ALT DELETE
+            >;
+        };
     };
 
     conditional_layers {
